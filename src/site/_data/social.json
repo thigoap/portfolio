@@ -1,0 +1,22 @@
+[
+  {
+    "name": "github",
+    "icon": "fab fa-github-square",
+    "url": "https://www.github.com/thigoap"
+  },
+  {
+    "name": "artfolio",
+    "icon": "fas fa-edit",
+    "url": "https://thigoap.github.io/artfolio/"
+  },
+  {
+    "name": "twitter",
+    "icon": "fab fa-twitter-square",
+    "url": "https://www.twitter.com/appthigo"
+  },
+  {
+    "name": "codepen",
+    "icon": "fab fa-codepen",
+    "url": "https://www.codepen.io/thigoap"
+  }
+]

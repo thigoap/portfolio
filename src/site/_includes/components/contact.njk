@@ -1,0 +1,72 @@
+<div class="w-3/5 md:w-9/12 max-w-md md:max-w-2xl mx-auto mt-8 mb-4">
+  <div class="flex flex-col items-center">
+    <p class="text-2xl font-medium">Contato</p>
+    <p>Se deseja um site para a sua ideia ou projeto, aguardo seu contato pelo formulário abaixo:</p> 
+  </div>
+  <form
+    name="contact"
+    method="POST"
+    action =""
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    class="bg-white shadow-md rounded p-4 mb-4 grid grid-cols-1 md:grid-cols-2"
+  >
+    <input
+      class="hidden"
+      name="bot-field"
+    >  
+    <div class="md:mr-2">
+      <div class="mb-2">
+        <input class="shadow appearance-none border rounded w-full py-1 px-1 text-gray-700 leading-tight"
+          id="name"
+          type="text"
+          placeholder="Nome"
+          required="required"
+          aria-label="name"
+        >
+      </div>
+      <div class="mb-2">
+        <input class="shadow appearance-none border rounded w-full py-1 px-1 text-gray-700 leading-tight"
+          id="email"
+          type="email" 
+          placeholder="Email"
+          required="required"
+          aria-label="email"
+        >
+        </div>
+      <div class="mb-2">
+        <input class="shadow appearance-none border rounded w-full py-1 px-1 text-gray-700 leading-tight"
+          id="subject"
+          type="text"
+          placeholder="Assunto"
+          required="required"
+          aria-label="subject"
+        >
+      </div>
+    </div>
+    <div class="textarea mb-2">
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-2 text-gray-700 leading-tight h-32 md:h-full"
+        placeholder="Mensagem"
+        required="required"
+        aria-label="message"></textarea>
+    </div>
+    <div class="flex items-center justify-center md:col-span-2">
+      <button
+        class="text-buttontext bg-buttonbg hover:bg-buttonhover px-8 rounded focus:outline-none focus:shadow-outline duration-200"
+        type="submit">
+      Enviar mensagem</button>
+    </div>
+  </form>
+
+  <p class="mt-8 text-center">Por email: 
+    <a href="mailto:{{ metadata.hero.email }}">
+      <i class="text-xl hover:text-red-500 fas fa-envelope"></i>
+      {{ metadata.hero.email }}</a>
+  </p>
+  <p class="mt-2 text-center">Ou whatsapp: 
+    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/5511980500741">
+      <i class="text-2xl hover:text-green-500 fab fa-whatsapp-square"></i>
+      {{ metadata.hero.whats }}</a>
+  </p>
+  
+</div>

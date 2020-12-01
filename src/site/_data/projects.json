@@ -1,0 +1,34 @@
+[
+  {
+    "tech": "webdev",  
+    "name": "XKCD comic viewer",
+    "image": "{{ '/static/assets/projects/xkcd.png' | url }}",
+    "description": "Página para visualizar as tirinhas do site XKCD.com",
+    "code": "https://www.github.com/thigoap/xkcd",
+    "demo": "https://xkcdwebcomics.vercel.app/"
+  },
+  {
+    "tech": "webdev",
+    "name": "NASA APOD",
+    "image": "{{ '/static/assets/projects/nasaapod.png' | url }}",
+    "description": "Página para visualizar a foto astronômica do dia da NASA.",
+    "code": "https://www.github.com/thigoap/nasaapod",
+    "demo": "https://nasaapod.thigoap.vercel.app/"
+  },
+  {
+    "tech": "webdev",
+    "name": "Psico Malini",
+    "image": "{{ '/static/assets/projects/psico.png' | url }}",
+    "description": "Página profissional e blog da psicóloga Natália Malini.",
+    "code": "https://www.github.com/thigoap/psicomalini",
+    "demo": "https://psicomalini.netlify.app"
+  },
+  {
+    "tech": "webdev",
+    "name": "Seu projeto",
+    "image": "{{ '/static/assets/projects/under-construction.png' | url }}",
+    "description": "Seu site pessoal, profissional, blog, ou ecommerce aqui!",
+    "code": "#projectslist",
+    "demo": "#projectslist"
+  }
+]

@@ -1,0 +1,31 @@
+<header class="font-header sm:mt-4 sm:mx-4">
+  <div class="flex flex-col sm:flex-row items-center bg-herocard p-4
+  sm:rounded-lg">
+
+    <div class="flex flex-col sm:flex-row">
+      <img
+        class="mx-auto w-32 sm:w-64 h-auto rounded-full"
+        src={{ metadata.hero.avatar }} alt="avatar"
+      >
+    </div>
+
+    <div class="ml-0 sm:ml-2">
+      <div>
+        {% if metadata.hero.greeting %}
+        <p class="text-xl font-semibold text-center">{{ metadata.hero.greeting }}</p>
+        {% endif %}
+        {% if metadata.hero.description %}
+        <p class="text-center">{{ metadata.hero.description }}</p>
+        {% endif %}
+      </div>
+      <div class="flex justify-center space-x-2 text-3xl mt-2">
+        {% for network in social %}
+          <a href="{{ network.url }}" aria-label="{{ network.name }}" class="flex">
+            <i class="{{ network.icon }}"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+    
+  </div>
+</header>
