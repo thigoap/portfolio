@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="thigoapxl">
+  <meta name="description" content="Portfolio de pixel art.">
+  <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}">
+  {# <link rel="icon" href={{ metadata.logo }}> #}
+  <title>thigoapxl - a pixel art portfolio</title>
+  <script src="https://kit.fontawesome.com/40fd1bd135.js" crossorigin="anonymous" async></script>
+</head>
+<body class="h-screen">
+
+  <div class="h-full mx-auto flex flex-col flex-1">
+    {% include '../../components/artfolio/header.njk' %}
+    
+    <div class="container mx-auto py-2
+      sm:px-4
+      md:px-8">
+      <main class="text-gray-900 p-2">
+        {{ content | safe }}
+      </main>
+    </div>
+
+    {% include '../../components/artfolio/footer.njk' %}
+  </div>
+
+  <script>
+    [...document.getElementsByClassName('32')].forEach((item) => {
+      item.classList.add('hidden')
+    });
+    [...document.getElementsByClassName('isometric')].forEach((item) => {
+      item.classList.add('hidden')
+    });
+    [...document.getElementsByClassName('tileset')].forEach((item) => {
+      item.classList.add('hidden')
+    });
+    [...document.getElementsByClassName('animation')].forEach((item) => {
+      item.classList.add('hidden')
+    });
+  </script>
+  <script src="{{ '/static/js/artfolio/menu.js' | url }}"></script>
+  <script src="{{ '/static/js/artfolio/arts.js' | url }}"></script>
+  
+</body>
+</html>

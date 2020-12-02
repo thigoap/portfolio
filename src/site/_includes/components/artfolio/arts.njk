@@ -1,0 +1,9 @@
+<div class="grid grid-cols-00 text-center gap-2">
+
+  {% for art in arts %}
+    <div class="max-w-sm rounded-sm overflow-hidden shadow-lg mx-auto {{ art.fields.type }}">
+      <img class="" src="{{ art.fields.image.fields.file.url }}" alt="{{ art.fields.title }}">
+    </div>
+  {% endfor %}
+  
+</div>

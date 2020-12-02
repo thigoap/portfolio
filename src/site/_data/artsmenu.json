@@ -1,0 +1,22 @@
+[
+  {
+    "label": "16x16",
+    "link": "to16"
+  },
+  {
+    "label": "32x32",
+    "link": "to32"
+  },
+  {
+    "label": "Isométrico",
+    "link": "toIsometric"
+  },
+  {
+    "label": "Tileset",
+    "link": "toTileset"
+  },
+  {
+    "label": "Animação",
+    "link": "toAnimation"
+  }
+]

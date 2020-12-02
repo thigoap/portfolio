@@ -1,0 +1,18 @@
+{# <p class="text-2xl font-medium text-center">Projects</p> #}
+
+<div class="mb-3">
+  <ul class="flex border-b flex-col text-center sm:flex-row">
+    {% for art in artsmenu %}
+      <li class="mr-1" id="item{{ art.link }}">
+        <p class="text-black inline-block cursor-pointer sm:py-2 sm:px-3 sm:bg-white" id="{{ art.link }}">
+          {{ art.label }}
+        </p>  
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  itemto16.classList.add('-mb-px')
+  to16.classList.add('font-medium', 'text-black', 'sm:border-l', 'sm:border-t', 'sm:border-r', 'sm:rounded-t')
+</script>

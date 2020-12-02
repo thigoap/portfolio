@@ -27,8 +27,6 @@
     "tech": "webdev",
     "name": "Seu projeto",
     "image": "{{ '/static/assets/projects/under-construction.png' | url }}",
-    "description": "Seu site pessoal, profissional, blog, ou ecommerce aqui!",
-    "code": "#projectslist",
-    "demo": "#projectslist"
+    "description": "Seu site pessoal, profissional, blog, ou ecommerce aqui!"
   }
 ]

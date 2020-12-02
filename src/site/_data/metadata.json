@@ -1,11 +1,11 @@
 {
-  "title": "thigoap portfolio",
-  "description": "Dev portfolio v0.1.0.",
+  "title": "thigoap portfolios",
+  "description": "Dev and art portfolios v0.1.0.",
   "hero": {
     "name": "Thiago Abrahão Pereira",
     "avatar": "{{ '/static/assets/avatar.png' | url }}",
     "greeting": "Oi, meu nome é Thiago.",
-    "description": "Trabalho com desenvolvimento web e criação de sites e blogs auto gerenciáveis, responsivos e otimizados para sites de busca. Abaixo você encontra minhas redes sociais e alguns dos meus projetos.",
+    "description": "Trabalho com desenvolvimento web e criação de sites e blogs auto gerenciáveis, responsivos e otimizados para sites de busca. Abaixo você encontra minhas redes sociais, meu portfolio de pixel art e alguns dos meus projetos.",
     "email": "appthigo@gmail.com",
     "whats": "(11) 98050-0741"
   }

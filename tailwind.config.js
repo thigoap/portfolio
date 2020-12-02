@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        '00': 'repeat(auto-fit, minmax(200px, 1fr))'
+        '00': 'repeat(auto-fit, minmax(240px, 1fr))'
       },
       colors: {
         'herocard': '#e2e8f0',
