@@ -1,11 +1,19 @@
 [
   {
     "tech": "webdev",  
-    "name": "XKCD comic viewer",
-    "image": "{{ '/static/assets/projects/xkcd.png' | url }}",
-    "description": "Página para visualizar as tirinhas do site XKCD.com",
-    "code": "https://www.github.com/thigoap/xkcd",
-    "demo": "https://xkcdwebcomics.vercel.app/"
+    "name": "Biblioteca Discworld",
+    "image": "{{ '/static/assets/projects/discworld.png' | url }}",
+    "description": "Site com informações do universo Discworld, criado por Terry Pratchett.",
+    "code": "https://www.github.com/thigoap/discworldbr",
+    "demo": "https://bibliotecadiscworld.netlify.app/"
+  },
+  {
+    "tech": "webdev",
+    "name": "Psico Malini",
+    "image": "{{ '/static/assets/projects/psico.png' | url }}",
+    "description": "Site profissional e blog da psicóloga Natália Malini.",
+    "code": "https://www.github.com/thigoap/psicomalini",
+    "demo": "https://psicomalini.netlify.app"
   },
   {
     "tech": "webdev",
@@ -16,12 +24,12 @@
     "demo": "https://nasaapod.thigoap.vercel.app/"
   },
   {
-    "tech": "webdev",
-    "name": "Psico Malini",
-    "image": "{{ '/static/assets/projects/psico.png' | url }}",
-    "description": "Página profissional e blog da psicóloga Natália Malini.",
-    "code": "https://www.github.com/thigoap/psicomalini",
-    "demo": "https://psicomalini.netlify.app"
+    "tech": "webdev",  
+    "name": "XKCD comic viewer",
+    "image": "{{ '/static/assets/projects/xkcd.png' | url }}",
+    "description": "Página para visualizar as tirinhas do site XKCD.com",
+    "code": "https://www.github.com/thigoap/xkcd",
+    "demo": "https://xkcdwebcomics.vercel.app/"
   },
   {
     "tech": "webdev",
