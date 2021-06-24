@@ -8,7 +8,7 @@
     "link": "to32"
   },
   {
-    "label": "Isométrico",
+    "label": "Isometric",
     "link": "toIsometric"
   },
   {
@@ -16,7 +16,7 @@
     "link": "toTileset"
   },
   {
-    "label": "Animação",
+    "label": "Animation",
     "link": "toAnimation"
   }
 ]

@@ -1,6 +1,13 @@
 [
   {
     "tech": "webdev",  
+    "name": "Receitinhas da Bih",
+    "image": "{{ '/static/assets/projects/receitinhasdabih.png' | url }}",
+    "description": "Site para divulgação do ebook de receitas da Bianca Taboada.",
+    "demo": "https://receitinhasdabih.netlify.app/"
+  },
+  {
+    "tech": "webdev",  
     "name": "Biblioteca Discworld",
     "image": "{{ '/static/assets/projects/discworld.png' | url }}",
     "description": "Site com informações do universo Discworld, criado por Terry Pratchett.",
