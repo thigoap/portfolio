@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dev Portfolio</title>	
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Coda&family=Iceland&family=Nova+Square&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="https://thigoap.github.io/portfolio/theme/css/main.css"/> -->
+	<link rel="stylesheet" type="text/css" href="./theme/css/main.css"/>
+</head>
+<body class="flex flex-col text-slate-100">
+<div id="burgerBtn"
+class="transform duration-300 fixed cursor-pointer
+top-16 left-4
+lg:-translate-x-32">
+    <img class="h-6"
+    src="./theme/images/burger-menu.png" alt="burger-menu">
+</div>
+<div id="navLinks"
+class="transform duration-300 -translate-x-32 fixed
+top-24 left-4 h-36 w-16
+lg:translate-x-0">
+    <ul class="menu-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+    </ul>
+</div>
+
+<script>
+	burgerBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('translate-x-0')
+	  }
+	)
+  </script>
+	
+	<div id="hero"
+	class="h-screen bg-cover bg-[url('./theme/images/bg-binary.png')] pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col justify-center items-center">
+    <p class="text-4xl">Olá, eu sou <span class="text-slate-400">Thiago</span>.</p>
+    <p class="text-xl">Analista de Dados que também costuma desenvolver para web, em Python e um pouco de games.</p>
+</div>	</div>
+	<div id="about"
+	class="h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col">
+    <p class="text-xl">About</p>
+</div>	</div>
+	<div id="projects"
+	class="h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col">
+    <p class="text-xl">Projects</p>
+</div>	</div>
+	<div id="contact"
+	class="h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col">
+    <p class="text-xl">Contact</p>
+</div>	</div>
+			
+</body>
+</html>
