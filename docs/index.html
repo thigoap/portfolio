@@ -22,13 +22,18 @@ lg:-translate-x-32">
 </div>
 <div id="navLinks"
 class="transform duration-300 -translate-x-32 fixed
-top-24 left-4 h-36 w-16
+top-24 left-4
 lg:translate-x-0">
     <ul class="menu-items">
         <li><a href="#">Home</a></li>
         <li><a href="#about">Sobre</a></li>
         <li><a href="#projects">Projetos</a></li>
+        <li><a href="#certifications">Certs.</a></li>
         <li><a href="#contact">Contato</a></li>
+        <li class="flex gap-x-1 pt-2">
+            <a target="_blank" href="https://www.linkedin.com/in/thigoap"><img class="h-6" src="./theme/images/icon-linkedin.png" alt="icon-linkedin"></a>
+            <a target="_blank" href="https://www.github.com/thigoap"><img class="h-6" src="./theme/images/icon-github.png" alt="icon-github"></a>
+        </li>
     </ul>
 </div>
 
@@ -37,6 +42,10 @@ lg:translate-x-0">
         navLinks.classList.toggle('translate-x-0')
 	  }
 	)
+	window.addEventListener('scroll', () => {
+        navLinks.classList.remove('translate-x-0')
+	  }
+	)    
   </script>
 	
 	<div id="hero"
@@ -46,19 +55,88 @@ lg:translate-x-0">
     <p class="text-xl">Analista de Dados que também costuma desenvolver para web, em Python e um pouco de games.</p>
 </div>	</div>
 	<div id="about"
-	class="h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col">
-    <p class="text-xl">About</p>
+	class="min-h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col pt-4 pb-8">
+    <p class="text-slate-300 text-4xl pb-1 border-b">Sobre mim</p>
+    <div class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempora perspiciatis reiciendis optio, architecto blanditiis minus veritatis velit ipsa, inventore aperiam earum, beatae eaque vel quam doloremque! Unde, ipsa excepturi.
+    Quaerat error placeat odit praesentium recusandae ipsa assumenda, eligendi tenetur voluptas maiores cum numquam in itaque molestias reiciendis pariatur exercitationem architecto nostrum mollitia sunt earum, fugiat aspernatur enim dolores. Numquam.
+    Nulla eius asperiores in enim quidem, corrupti magnam delectus quam magni explicabo pariatur quaerat molestiae voluptates facilis cum unde eos, vel voluptas earum voluptate aspernatur esse, labore distinctio. Eos, quos.
+    Optio eos dolorum, animi quaerat blanditiis at iure? Cum sunt consequuntur, recusandae ratione veritatis iure cumque quod officia rerum. Deleniti numquam quo quae. Voluptatibus odit necessitatibus, aut voluptate autem cupiditate!
+    Error, quidem. Eum rem assumenda recusandae eligendi obcaecati repellendus voluptas voluptates, sit quia facere eius, fuga vero quam numquam illum, consectetur veritatis totam cupiditate? Odit dolores itaque officia pariatur illo?
+    Quisquam voluptas, iste nemo id, repudiandae asperiores consectetur nesciunt magnam voluptate similique culpa placeat incidunt veritatis. Omnis debitis quam corporis unde incidunt, similique quas consequatur. Sed voluptatibus a ratione necessitatibus!
+    Mollitia corporis voluptas quidem sit iusto, illo ab, earum dolores dolor neque beatae quae fugiat! Officia magni aut soluta repudiandae consequatur totam dolor dicta, dolore quam animi tenetur quae pariatur.
+    </div>
+    <div class="flex justify-end pt-8">
+    <a class="w-fit" href="" download download="Thiago Abrahão Pereira.pdf">
+        <p class="px-4 py-2 bg-slate-300 rounded text-slate-800 font-bold">Download CV</p>
+    </a>
+    </div>
 </div>	</div>
 	<div id="projects"
-	class="h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col">
-    <p class="text-xl">Projects</p>
+	class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col pt-4 pb-8">
+    <p class="text-slate-300 text-4xl pb-1 border-b">Projetos</p>
+    <div id="dados">
+        <p class="text-xl pt-4">Dados</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+            <div class="flex flex-col items-center">
+                <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiM2U0ZGIxYjAtMDRhNS00OTc3LThmYjEtMzU2ZDcyMTIzZjI5IiwidCI6Ijc1YjJhMjI2LTI2YjAtNDA4Yy1iY2JlLTIwMTQwODhhMmMzZSJ9">
+                <img class="max-h-64"
+                src="./theme/images/projects/data-soccer.png" alt="data-soccer"></a>
+                <p class="py-1">Brasileirão no Power BI</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="web">
+        <p class="text-xl pt-4">Web</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+            <div class="flex flex-col items-center">
+                <a target="_blank" href="https://thigoap.github.io/pomodoro">
+                <img class="h-auto max-h-72"
+                src="./theme/images/projects/web-pomodoro.png" alt="web-pomodoro"></a>
+                <p class="py-1">Pomodoro</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="h-auto max-h-72"
+                src="./theme/images/projects/web-portfolio.png" alt="web-portfolio">
+                <p class="py-1">Inception. Esse Portfolio</p>
+            </div>
+        </div>
+    </div>
+    <div id="python">
+        <p class="text-xl pt-4">Python</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+
+        </div>
+    </div>
+    <div id="games">
+        <p class="text-xl pt-4">Games</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+
+        </div>
+    </div>
+</div>	</div>
+	<div id="certifications"
+	class="min-h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col pt-4 pb-8">
+    <p class="text-slate-300 text-4xl pb-1 border-b">Certificações</p>
+    <div class="grid grid-cols-2 gap-4 pt-4">
+        <div class="flex flex-col items-center">
+            <a target="_blank" href="https://www.credly.com/earner/earned/badge/b9cd8d31-64a8-4a6a-a907-a20ecaaf5dc7">
+            <img class="h-48 w-48"
+            src="./theme/images/azure-data-fundamentals.png" alt="azure data fundamentals"></a>
+            <p class="py-1">Microsoft Azure Data Fundamentals - DP-900</p>
+        </div>
+    </div>
+
 </div>	</div>
 	<div id="contact"
-	class="h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col">
-    <p class="text-xl">Contact</p>
+	class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+<div class="h-full flex flex-col pt-4 pb-8">
+    <p class="text-slate-300 text-4xl pb-1 border-b">Contato</p>
+    <div class="pt-4"></div>
 </div>	</div>
 			
 </body>
