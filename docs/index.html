@@ -4,140 +4,303 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dev Portfolio</title>	
+	<title>thigoap Portfolio</title>	
 	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Coda&family=Iceland&family=Nova+Square&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" type="text/css" href="https://thigoap.github.io/portfolio/theme/css/main.css"/> -->
-	<link rel="stylesheet" type="text/css" href="./theme/css/main.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="https://thigoap.github.io/portfolio/static/css/main.css"/> -->
+	<link rel="stylesheet" type="text/css" href="./static/css/main.css"/>
 </head>
-<body class="flex flex-col text-slate-100">
-<div id="burgerBtn"
-class="transform duration-300 fixed cursor-pointer
-top-16 left-4
-lg:-translate-x-32">
-    <img class="h-6"
-    src="./theme/images/burger-menu.png" alt="burger-menu">
-</div>
-<div id="navLinks"
-class="transform duration-300 -translate-x-32 fixed
-top-24 left-4
-lg:translate-x-0">
-    <ul class="menu-items">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#certifications">Certs.</a></li>
-        <li><a href="#contact">Contato</a></li>
-        <li class="flex gap-x-1 pt-2">
-            <a target="_blank" href="https://www.linkedin.com/in/thigoap"><img class="h-6" src="./theme/images/icon-linkedin.png" alt="icon-linkedin"></a>
-            <a target="_blank" href="https://www.github.com/thigoap"><img class="h-6" src="./theme/images/icon-github.png" alt="icon-github"></a>
-        </li>
-    </ul>
-</div>
 
-<script>
-	burgerBtn.addEventListener('click', () => {
-        navLinks.classList.toggle('translate-x-0')
-	  }
-	)
-	window.addEventListener('scroll', () => {
-        navLinks.classList.remove('translate-x-0')
-	  }
-	)    
-  </script>
+<body class="flex flex-col text-slate-100" font-family='Coda', cursive;>
+	<div id="burgerBtn"
+		class="transform duration-300 fixed cursor-pointer
+		top-16 left-4
+		lg:-translate-x-32">
+			<img class="h-6" src="./static/images/burger-menu.png" alt="burger-menu">
+	</div>
+
+	<div id="navLinks"
+		class="transform duration-300 -translate-x-32 fixed
+		top-24 left-4
+		lg:translate-x-0">
+		<ul class="menu-items">
+			<li><a href="#">Início</a></li>
+			<li><a href="#projects">Projetos</a></li>
+			<li><a href="#about">Sobre</a></li>
+			<li><a href="#certifications">Certs.</a></li>
+			<!-- <li><a href="#contact">Contato</a></li> -->
+			<li class="flex gap-x-1 pt-2">
+				<a target="_blank" href="https://www.linkedin.com/in/thigoap"><img class="h-6" src="./static/images/icons/icon-linkedin.png" alt="icon-linkedin"></a>
+				<a target="_blank" href="https://www.github.com/thigoap"><img class="h-6" src="./static/images/icons/icon-github.png" alt="icon-github"></a>
+			</li>
+		</ul>
+	</div>
+
+	<script>
+		burgerBtn.addEventListener('click', () => {
+				navLinks.classList.toggle('translate-x-0')
+			}
+		)
+		window.addEventListener('scroll', () => {
+				navLinks.classList.remove('translate-x-0')
+			}
+		)    
+	</script>
 	
 	<div id="hero"
-	class="h-screen bg-cover bg-[url('./theme/images/bg-binary.png')] pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col justify-center items-center">
-    <p class="text-4xl">Olá, eu sou <span class="text-slate-400">Thiago</span>.</p>
-    <p class="text-xl">Analista de Dados que também costuma desenvolver para web, em Python e um pouco de games.</p>
-</div>	</div>
-	<div id="about"
-	class="min-h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col pt-4 pb-8">
-    <p class="text-slate-300 text-4xl pb-1 border-b">Sobre mim</p>
-    <div class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempora perspiciatis reiciendis optio, architecto blanditiis minus veritatis velit ipsa, inventore aperiam earum, beatae eaque vel quam doloremque! Unde, ipsa excepturi.
-    Quaerat error placeat odit praesentium recusandae ipsa assumenda, eligendi tenetur voluptas maiores cum numquam in itaque molestias reiciendis pariatur exercitationem architecto nostrum mollitia sunt earum, fugiat aspernatur enim dolores. Numquam.
-    Nulla eius asperiores in enim quidem, corrupti magnam delectus quam magni explicabo pariatur quaerat molestiae voluptates facilis cum unde eos, vel voluptas earum voluptate aspernatur esse, labore distinctio. Eos, quos.
-    Optio eos dolorum, animi quaerat blanditiis at iure? Cum sunt consequuntur, recusandae ratione veritatis iure cumque quod officia rerum. Deleniti numquam quo quae. Voluptatibus odit necessitatibus, aut voluptate autem cupiditate!
-    Error, quidem. Eum rem assumenda recusandae eligendi obcaecati repellendus voluptas voluptates, sit quia facere eius, fuga vero quam numquam illum, consectetur veritatis totam cupiditate? Odit dolores itaque officia pariatur illo?
-    Quisquam voluptas, iste nemo id, repudiandae asperiores consectetur nesciunt magnam voluptate similique culpa placeat incidunt veritatis. Omnis debitis quam corporis unde incidunt, similique quas consequatur. Sed voluptatibus a ratione necessitatibus!
-    Mollitia corporis voluptas quidem sit iusto, illo ab, earum dolores dolor neque beatae quae fugiat! Officia magni aut soluta repudiandae consequatur totam dolor dicta, dolore quam animi tenetur quae pariatur.
-    </div>
-    <div class="flex justify-end pt-8">
-    <a class="w-fit" href="" download download="Thiago Abrahão Pereira.pdf">
-        <p class="px-4 py-2 bg-slate-300 rounded text-slate-800 font-bold">Download CV</p>
-    </a>
-    </div>
-</div>	</div>
+		class="h-screen bg-cover bg-slate-900 bg-[url('./static/images/bg-binary.png')] pr-8 pl-20 lg:px-40 xl:px-72">
+		<div class="h-full flex flex-col justify-center items-center">
+			<p class="text-4xl">Olá, eu sou <span class="text-slate-400">Thiago</span>.</p>
+			<p class="text-xl text-center">Aqui você encontrará alguns projetos pessoais envolvendo desenvolvimento web e mobile, análise de dados e games.</p>
+		</div>
+	</div>
+
 	<div id="projects"
-	class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col pt-4 pb-8">
-    <p class="text-slate-300 text-4xl pb-1 border-b">Projetos</p>
-    <div id="dados">
-        <p class="text-xl pt-4">Dados</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-            <div class="flex flex-col items-center">
-                <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiM2U0ZGIxYjAtMDRhNS00OTc3LThmYjEtMzU2ZDcyMTIzZjI5IiwidCI6Ijc1YjJhMjI2LTI2YjAtNDA4Yy1iY2JlLTIwMTQwODhhMmMzZSJ9">
-                <img class="max-h-64"
-                src="./theme/images/projects/data-soccer.png" alt="data-soccer"></a>
-                <p class="py-1">Brasileirão no Power BI</p>
-            </div>
-        </div>
+		class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+		<div class="h-full flex flex-col pt-4 pb-8">
+			<p class="text-slate-300 text-4xl pb-1 border-b">Projetos</p>
 
+			<div id="web">
+				<p class="text-xl pt-8">Web</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
 
-    </div>
-    <div id="web">
-        <p class="text-xl pt-4">Web</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
-            <div class="flex flex-col items-center">
-                <a target="_blank" href="https://thigoap.github.io/pomodoro">
-                <img class="h-auto max-h-72"
-                src="./theme/images/projects/web-pomodoro.png" alt="web-pomodoro"></a>
-                <p class="py-1">Pomodoro</p>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="h-auto max-h-72"
-                src="./theme/images/projects/web-portfolio.png" alt="web-portfolio">
-                <p class="py-1">Inception. Esse Portfolio</p>
-            </div>
-        </div>
-    </div>
-    <div id="python">
-        <p class="text-xl pt-4">Python</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="https://nasaapod.thigoap.vercel.app/" class="object-cover w-full">
+									<img src="./static/images/projects/web-nasa.png" alt="web-nasa-apod"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">NASA APOD</p>
+									<div class="flex gap-2">
+										<img src="./static/images/icons/icon-html5.png" alt="icon-html5" class="h-6">
+										<img src="./static/images/icons/icon-vue.png" alt="icon-vue" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Site que utiliza a API da NASA para mostrar a imagem astronômica do dia.</p>
+							</div>
+						</div>
+					</div>
 
-        </div>
-    </div>
-    <div id="games">
-        <p class="text-xl pt-4">Games</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="https://thigoap.github.io/pomodoro">
+									<img src="./static/images/projects/web-pomodoro.png" alt="web-pomodoro"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Pomodoro</p>
+									<div class="">
+										<img src="./static/images/icons/icon-python.png" alt="icon-python" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Página web para ser utilizada a técnica Pomodoro.</p>
+							</div>
+						</div>
+					</div>
 
-        </div>
-    </div>
-</div>	</div>
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="" class="flex">
+									<img src="./static/images/projects/web-portfolio.png" alt="web-portfolio"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Portfolio</p>
+									<div class="">
+										<img src="./static/images/icons/icon-html5.png" alt="icon-html5" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Inception. Página web desse portfolio.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="https://bibliotecadiscworld.netlify.app/" class="flex">
+									<img src="./static/images/projects/web-discworld.png" alt="web-discworld"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Biblioteca Discworld</p>
+									<div class="flex gap-2">
+										<img src="./static/images/icons/icon-html5.png" alt="icon-html5" class="h-6">
+										<img src="./static/images/icons/icon-11ty.png" alt="icon-11ty" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Página web com informações dos livros da série Discworld publicados no Brasil.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div id="mobile">
+				<p class="text-xl pt-8">Mobile</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="https://brous.itch.io/starlight-sprint">
+									<img src="./static/images/projects/mobile-starlight.png" alt="mobile-starlight" class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Starlight Sprint</p>
+									<div class="flex gap-2">
+										<img src="./static/images/icons/icon-cs.png" alt="icon-c#" class="h-6">
+										<img src="./static/images/icons/icon-unity.webp" alt="icon-unity" class="h-6">
+										<img src="./static/images/icons/icon-android.png" alt="icon-android" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Jogo Infinite Runner disponível na itch.io e em breve para Android.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="" class="flex">
+									<img src="./static/images/projects/web-portfolio.png" alt="web-portfolio"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Nome</p>
+									<div class="flex gap-2">
+										<img src="./static/images/icons/icon-cs.png" alt="icon-c#" class="h-6">
+										<img src="./static/images/icons/icon-maui.png" alt="icon-maui" class="h-6">
+										<img src="./static/images/icons/icon-android.png" alt="icon-android" class="h-6">
+										<img src="./static/images/icons/icon-ios.webp" alt="icon-ios" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Aplicativo para divisão de contas de consumo.</p>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+			</div>
+
+			<div id="dados">
+				<p class="text-xl pt-4">Dados</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+
+					<div class="max-w-md">
+						<div class="flex flex-col">
+							<div>
+								<a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiM2U0ZGIxYjAtMDRhNS00OTc3LThmYjEtMzU2ZDcyMTIzZjI5IiwidCI6Ijc1YjJhMjI2LTI2YjAtNDA4Yy1iY2JlLTIwMTQwODhhMmMzZSJ9">
+									<img src="./static/images/projects/data-soccer.png" alt="data-soccer"
+									class="object-cover w-full">
+								</a>
+							</div>
+							<div class="flex flex-col justify-center bg-slate-900 overflow-auto p-2 box">
+								<div class="flex justify-between">
+									<p class="font-bold">Brasileirão no Power BI</p>
+									<div class="">
+										<img src="./static/images/icons/icon-powerbi.png" alt="icon-powerbi" class="h-6">
+									</div>
+								</div>
+								<p class="pt-1">Dashboard interativo com informações dos Campeonatos Brasileiros de 2003 a 2021.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="about"
+	class="h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
+	<div class="h-full flex flex-col pt-4 pb-8">
+		<p class="text-slate-300 text-4xl pb-1 border-b">Sobre</p>
+		<div class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempora perspiciatis reiciendis optio, architecto blanditiis minus veritatis velit ipsa, inventore aperiam earum, beatae eaque vel quam doloremque! Unde, ipsa excepturi.
+		Quaerat error placeat odit praesentium recusandae ipsa assumenda, eligendi tenetur voluptas maiores cum numquam in itaque molestias reiciendis pariatur exercitationem architecto nostrum mollitia sunt earum, fugiat aspernatur enim dolores. Numquam.
+		</div>
+		<div class="flex justify-center gap-2 pt-8">
+			<a target="_blank" href="https://www.linkedin.com/in/thigoap"><img class="h-12" src="./static/images/icons/icon-linkedin.png" alt="icon-linkedin"></a>
+			<a target="_blank" href="https://www.github.com/thigoap"><img class="h-12" src="./static/images/icons/icon-github.png" alt="icon-github"></a>
+			<a target="_blank" href="mailto:appthigo@gmail.com"><img class="h-12" src="./static/images/icons/icon-envelope.png" alt="icon-envelope"></a>
+		</div>
+		<!-- <div class="flex justify-end pt-8">
+		<a class="w-fit" href="" download download="Thiago Abrahão Pereira.pdf">
+			<p class="px-4 py-2 bg-slate-300 rounded text-slate-800 font-bold">Download CV</p>
+		</a>
+		</div> -->
+	</div>
+</div>
+
 	<div id="certifications"
-	class="min-h-screen bg-cover bg-slate-900 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col pt-4 pb-8">
-    <p class="text-slate-300 text-4xl pb-1 border-b">Certificações</p>
-    <div class="grid grid-cols-2 gap-4 pt-4">
-        <div class="flex flex-col items-center">
-            <a target="_blank" href="https://www.credly.com/earner/earned/badge/b9cd8d31-64a8-4a6a-a907-a20ecaaf5dc7">
-            <img class="h-48 w-48"
-            src="./theme/images/azure-data-fundamentals.png" alt="azure data fundamentals"></a>
-            <p class="py-1">Microsoft Azure Data Fundamentals - DP-900</p>
-        </div>
-    </div>
+		class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+		<div class="h-full flex flex-col pt-4 pb-8">
+			<p class="text-slate-300 text-4xl pb-1 border-b">Certificações</p>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
+				
+				<div class="flex flex-col items-center">
+					<a target="_blank" href="">
+						<img class="h-48 w-48"
+						src="./static/images/sfmc-administrator.png" alt="sfmc administrator">
+					</a>
+					<p class="pt-2">Salesforce Marketing Cloud<br>Administrator</p>
+				</div>
 
-</div>	</div>
-	<div id="contact"
-	class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
-<div class="h-full flex flex-col pt-4 pb-8">
-    <p class="text-slate-300 text-4xl pb-1 border-b">Contato</p>
-    <div class="pt-4"></div>
-</div>	</div>
+				<div class="flex flex-col items-center">
+					<a target="_blank" href="">
+						<img class="h-48 w-48"
+						src="./static/images/sfmc-email-specialist.png" alt="sfmc email specialist">
+					</a>
+					<p class="pt-2">Salesforce Marketing Cloud<br>Email Specialist</p>
+				</div>
+
+				<div class="flex flex-col items-center">
+					<a target="_blank" href="">
+						<img class="h-48 w-48"
+						src="./static/images/sfmc-developer.png" alt="sfmc developer">
+					</a>
+					<p class="pt-2">Salesforce Marketing Cloud<br>Developer</p>
+				</div>
+
+				<div class="flex flex-col items-center">
+					<a target="_blank" href="https://www.credly.com/earner/earned/badge/b9cd8d31-64a8-4a6a-a907-a20ecaaf5dc7">
+						<img class="h-48 w-48"
+						src="./static/images/azure-data-fundamentals.png" alt="azure data fundamentals">
+					</a>
+					<p class="pt-2">Microsoft Azure<br>Data Fundamentals - DP-900</p>
+				</div>
+		
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="contact"
+		class="min-h-screen bg-cover bg-slate-800 pr-8 pl-20 lg:px-40 xl:px-72">
+		<div class="h-full flex flex-col pt-4 pb-8">
+			<p class="text-slate-300 text-4xl pb-1 border-b">Contato</p>
+			<div class="pt-4"></div>
+		</div>
+	</div> -->
 			
 </body>
 </html>

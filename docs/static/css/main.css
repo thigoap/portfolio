@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Coda';
+}
+
+.box {
+  min-height: 100px;
+}
